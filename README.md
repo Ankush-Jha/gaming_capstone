@@ -119,11 +119,6 @@ Or use **Live Server** in VS Code.
 
 ---
 
-## 📜 License
-This project is licensed under the **MIT License**.
-
----
-
 ## ⭐ Support the Project
 If you like this project:
 
