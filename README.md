@@ -5,7 +5,7 @@ ArcadeVerse is a futuristic gaming hub designed for intense visuals, competitive
 ---
 
 ## 🚀 Live Demo
-👉 https://your-vercel-deployment-link
+👉 [DEPLOYMENT LINK](https://gaming-capstone-hj5f-y5sahr3u6-ankush-jhas-projects-36549ab3.vercel.app/)
 
 ---
 
