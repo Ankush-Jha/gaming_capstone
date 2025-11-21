@@ -63,11 +63,13 @@ a:hover {
 
 .nav-links a {
    color: #ddd;
+   text-decoration: none;
 }
 
 .nav-links a.active,
 .nav-links a:hover {
    color: #CF0F47;
+   text-decoration: none;
 }
 
 /* Buttons */
@@ -165,6 +167,13 @@ section {
    overflow: hidden;
    display: flex;
    flex-direction: column;
+   transition: all 0.3s ease;
+}
+
+.game-card:hover {
+   transform: translateY(-10px);
+   border-color: #CF0F47;
+   box-shadow: 0 0 30px rgba(255, 0, 0, 0.3);
 }
 
 .game-card img {
@@ -263,7 +272,17 @@ section {
    background-color: #111;
    border: 1px solid #333;
    border-radius: 8px;
+   border-radius: 8px;
    padding: 1.5rem;
+   transition: all 0.3s ease;
+}
+
+.news-card:hover,
+.team-card:hover,
+.value-card:hover {
+   transform: translateY(-5px);
+   border-color: #CF0F47;
+   box-shadow: 0 0 30px rgba(0, 217, 255, 0.3);
 }
 
 .news-card img,
@@ -321,6 +340,12 @@ section {
    display: flex;
    flex-direction: row;
    align-items: center;
+   transition: all 0.3s ease;
+}
+
+.game-card-large:hover {
+   border-color: #CF0F47;
+   box-shadow: 0 0 30px rgba(0, 217, 255, 0.3);
 }
 
 .game-card-large img {
