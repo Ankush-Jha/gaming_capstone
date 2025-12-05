@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - ArcadeVerse</title>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <nav class="navbar">
         <div class="nav-container">
             <div class="logo">ArcadeVerse</div>
+            <button class="mobile-menu-btn" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="games.html">Games</a></li>
@@ -32,7 +41,7 @@
             <div class="contact-grid">
                 <div class="contact-form">
                     <h2>Send us a Message</h2>
-                    <form>
+                    <form id="contactForm">
                         <div class="form-group">
                             <label for="name">Name</label>
                             <input type="text" id="name" name="name" required>
@@ -111,5 +120,7 @@
             <p>&copy; 2025 ArcadeVerse. All rights reserved.</p>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
+
 </html>
