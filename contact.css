@@ -1,4 +1,3 @@
-/* Contact Page Support */
 .contact-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -24,7 +23,7 @@
     border-radius: 4px;
 }
 
-/* Community CTA reuse */
+
 .community-cta {
     text-align: center;
     background-color: #111;
@@ -34,7 +33,8 @@
     max-width: 1200px;
     margin: 4rem auto;
 }
-.contact-form{
+
+.contact-form {
     border: 2px solid #CF0F47;
     border-radius: 20px;
     padding: 30px;

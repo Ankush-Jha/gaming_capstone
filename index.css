@@ -1,4 +1,3 @@
-/* Hero Section */
 .hero {
     position: relative;
     padding: 4rem 2rem;
@@ -37,7 +36,7 @@
     gap: 1rem;
 }
 
-/* Featured Games */
+
 .games-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -76,7 +75,7 @@
     align-self: start;
 }
 
-/* Stats */
+
 .stats {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -96,7 +95,7 @@
     color: #CF0F47;
 }
 
-/* CTA */
+
 .cta {
     text-align: center;
     background-color: #111;

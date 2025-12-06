@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // 1. Dynamic Copyright Year
+
     const yearSpan = document.querySelector('.footer-bottom p');
     if (yearSpan) {
         const currentYear = new Date().getFullYear();
         yearSpan.innerHTML = yearSpan.innerHTML.replace(/\d{4}/, currentYear);
     }
 
-    // 2. Contact Form Handling
+
     const contactForm = document.getElementById('contactForm');
     if (contactForm) {
         contactForm.addEventListener('submit', (e) => {
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // 3. Back to Top Button
+
     const backToTopBtn = document.getElementById('backToTop');
 
     if (backToTopBtn) {
